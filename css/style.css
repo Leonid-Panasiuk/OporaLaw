@@ -828,7 +828,7 @@ footer>span {
 
     .column--active .column-inner {
         visibility: visible;
-        transition: all 0.3s linear 0.3s;
+        transition: all 0.2s linear 0.2s;
         
     }
 
