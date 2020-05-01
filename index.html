@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <title>Opora</title>
 </head>
@@ -421,26 +420,7 @@
 
         <script src="js/jquery-3.4.1.min.js"></script>
         <script src="js/script.js"></script>
-        <script src="node_modules/aos/dist/aos.js"></script>
-
-<script>
-      document.querySelector('html').classList.remove('no-js');
-      if (!window.Cypress) {
-        const scrollCounter = document.querySelector('.js-scroll-counter');
-
-        AOS.init({
-          mirror: true
-        });
-
-        document.addEventListener('aos:in', function(e) {
-          console.log('in!', e.detail);
-        });
-
-        window.addEventListener('scroll', function() {
-          scrollCounter.innerHTML = window.pageYOffset;
-        });
-      }
-    </script>
+        <script src="aos/aos.js"></script>
         <script defer src="js/panel.js"></script>
         <script src="js/bootstrap.js"></script>
     <script defer
