@@ -857,3 +857,54 @@ footer>span {
     }
 
 }
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .home h1 {
+        font-size: 50px;
+    }
+
+    .home h2 {
+        font-size: 25px;
+    }
+
+    .guarantees {
+        height: 900px;
+    }
+
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+    .home h1 {
+        font-size: 50px;
+    }
+
+    .home h2 {
+        font-size: 25px;
+    }
+
+
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    .home h1 {
+        font-size: 60px;
+    }
+
+    .home h2 {
+        font-size: 25px;
+    }
+
+
+}
