@@ -13,6 +13,10 @@ a:hover {
     text-decoration: none;
 }
 
+main {
+    overflow: hidden;
+}
+
 body {
     background-color: #111316;
     font-family: 'Montserrat', sans-serif;
@@ -125,7 +129,19 @@ header {
     height: 100vh;
 }
 
-
+.home-container {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
 
 .home h1 {
     font-size: 100px;
@@ -135,12 +151,7 @@ header {
     margin-bottom: 0;
     text-shadow: 5px 4px 4px #2c2c2c;
     text-align: center;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+   
 }
 
 .home h2 {
@@ -149,12 +160,6 @@ header {
     margin-top: 15px;
     text-shadow: 5px 4px 2px #2c2c2c;
     text-align: center;
-    margin: 0;
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
 }
 
 .home p {
@@ -768,7 +773,7 @@ footer>span {
 }
 
 .burger-item {
-    margin: 5px;
+    margin: 20px;
 }
 
 .burger-item a {
@@ -791,9 +796,6 @@ footer>span {
         display: none;
     }
 
-    .home-container h2 {
-        top: 58%;
-    }
 }
 
 @media (max-width: 1920px) {
@@ -849,10 +851,6 @@ footer>span {
         
     }
     
-    .home-container h2 {
-        top: 60%;
-    }
-
 
     #map {
         height: 100%;
