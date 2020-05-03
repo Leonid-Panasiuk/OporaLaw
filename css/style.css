@@ -786,7 +786,15 @@ footer>span {
 
 /* MEDIA */
 
+@media (max-width: 1920px) {
+    .burger-menu {
+        display: none;
+    }
 
+    .home-container h2 {
+        top: 58%;
+    }
+}
 
 @media (max-width: 1920px) {
     .burger-menu {
