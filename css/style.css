@@ -761,6 +761,10 @@ footer>span {
 
 .burger-links {
     list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    background: linear-gradient(to right, #000000da, #000000da);
 }
 
 .burger-item {
