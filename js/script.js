@@ -164,16 +164,4 @@ $(document).ready(function () {
 });
 
 
-//SHOW TEL 
 
-$(document).ready(function () {
-  $(".fa-phone" ).click(function () {
-    $(".tel").toggle(700);
-  });
-});
-
-$(document).ready(function () {
-  $(".see" ).click(function () {
-    $(".tel").toggle(700);
-  });
-});
