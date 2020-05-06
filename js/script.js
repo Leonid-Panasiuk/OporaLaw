@@ -1,4 +1,3 @@
-
 //MAP
 
 function initMap() {
@@ -160,9 +159,10 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 
 $(document).ready(function () {
   $(".burger-toogle").click(function () {
-    $(".burger-links").slideToggle("slow");
+    $(".burger-links").slideToggle(700);
   });
 });
+
 
 //SHOW TEL 
 
@@ -177,4 +177,3 @@ $(document).ready(function () {
     $(".tel").toggle(700);
   });
 });
-
