@@ -18,7 +18,7 @@ main {
 }
 
 body {
-    background-color: #111316;
+    background-color: #191919;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -322,7 +322,7 @@ header {
 
 .col_row img {
     border-radius: 100%;
-    border: 1px solid #555;
+    border: 3px solid #d99860;
 }
 
 .services img {
@@ -345,9 +345,17 @@ header {
     font-size: 40px;
     text-align: center;
     padding-top: 20px;
+    text-transform: uppercase;
 }
 
 .line {
+    height: 1px;
+    width: 100%;
+    background: #bbb;
+    margin: 15px auto 20px;
+}
+
+.line50 {
     height: 1px;
     width: 50%;
     background: #bbb;
@@ -531,7 +539,7 @@ header {
 /* guarantees */
 
 .guarantees {
-    background-color: #111316;
+    background-color: #191919;
     color: white;
     line-height: 1.5;
     padding: 30px 0;
@@ -589,10 +597,11 @@ header {
 }
 
 .pre-footer p:first-child {
-    font-size: 32px;
+    font-size: 30px;
     color: black;
     opacity: 0.7;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .wrapper p:nth-child(2) {
@@ -742,6 +751,11 @@ a {
     padding-bottom: 40px;
 }
 
+.emails span a:first-child {
+    font-size: 16px;
+}
+
+
 .contacts a:hover {
     text-decoration: none;
     border-bottom: 2px solid white;
@@ -870,6 +884,7 @@ footer>span {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        text-align: center;
     }
 
     .communication span {
