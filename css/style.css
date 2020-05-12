@@ -823,7 +823,7 @@ footer>span {
 }
 
 .burger-item {
-    margin: 20px;
+    margin: 10px;
 }
 
 .burger-item a {
@@ -869,9 +869,6 @@ footer>span {
         display: block;
     }
 
-    .selectpicker {
-        display: none;
-    }
 
     .mobile-menu {
         display: flex;
